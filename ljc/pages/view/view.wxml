@@ -1,0 +1,12 @@
+<!--view的基本使用-->
+<view>哈哈</view>
+<view>额呵呵</view>
+
+<!--阻止冒泡事件-->
+<view class="box" hover-class="hover-view">
+  <view class="box1" 
+        hover-class="hover"
+        hover-stop-propagation="{{true}}">
+    hahah
+  </view>
+</view>
