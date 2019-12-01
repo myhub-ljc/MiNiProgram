@@ -13,3 +13,6 @@
 
 <open-data type="userNickName"></open-data>
 <open-data type="userAvatarUrl"></open-data>
+
+<!--使用我们的自定义组件-->
+<mycpn></mycpn>
