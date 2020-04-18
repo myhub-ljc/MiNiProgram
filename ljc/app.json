@@ -29,14 +29,14 @@
         "pagePath": "pages/photo/photo",
         "text": "青春轨迹",
         
-        "iconPath": "/images/icon/photo.png",
-        "selectedIconPath": "/images/icon/photo_click.png"
+        "iconPath": "/images/static/fs3.png",
+        "selectedIconPath": "/images/static/fs4.png"
       },
       {
         "pagePath": "pages/Letter/Letter",
         "text": "未来期待",
-        "iconPath": "/images/icon/staricon.png",
-        "selectedIconPath": "/images/icon/staricon_click.png"
+        "iconPath": "/images/static/fs2.png",
+        "selectedIconPath": "/images/static/fs1.png"
       },
       {
         "pagePath": "pages/personal/personal",

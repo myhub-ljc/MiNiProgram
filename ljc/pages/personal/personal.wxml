@@ -3,7 +3,7 @@
   <view>
     <view class='partone'>
       <view class='back'>
-        <image class='back_images' src='/images/post/beijing.jpg' style='height:500rpx;width:100%'></image>
+        <image class='back_images' src='/images/static/swiper3.jpg' style='height:500rpx;width:100%'></image>
       </view>
       <view class='name'>
         <!-- <view class="userinfo">

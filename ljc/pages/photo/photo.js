@@ -9,9 +9,9 @@ Page({
 		photos: '',
 		hiddenmodalput: true,
 		imgUrls: [
-			'/images/static/swiper.png',
-			'/images/static/swiper.png',
-			'/images/static/swiper.png',
+			'/images/static/swiper1.jpg',
+			'/images/static/swiper2.jpg',
+			'/images/static/swiper4.jpg',
 		],
 		indicatorDots: true,
 		autoplay: true,
