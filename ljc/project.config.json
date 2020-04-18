@@ -4,22 +4,33 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.4",
+	"libVersion": "2.6.4",
 	"appid": "wxdf739ef94f158396",
 	"projectname": "ljc",
+	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
+	"scripts": {},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -31,13 +42,140 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
-			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "photo",
+					"pathName": "pages/photo/photo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "photo-detail",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "photo-detail",
+					"pathName": "pages/photo-detail/photo-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "photo-detail",
+					"pathName": "pages/photo/photo-detail/photo-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "personal",
+					"pathName": "pages/personal/personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shoucang",
+					"pathName": "pages/shoucang/shoucang",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "MyAlbum",
+					"pathName": "pages/personal/MyAlbum/MyAlbum",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "write-Letter",
+					"pathName": "pages/write-Letter/write-Letter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "starplan",
+					"pathName": "pages/starplan/starplan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ContactUs",
+					"pathName": "pages/personal/ContactUs/ContactUs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "starplan",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "starplan",
+					"pathName": "pages/starplan/starplan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shiyan",
+					"pathName": "pages/shiyan/试验",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shiyan",
+					"pathName": "pages/shiyan/shiyan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "WxComment-master",
+					"pathName": "pages/WxComment-master/WxComment-master",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Social-Applet-master",
+					"pathName": "pages/Social-Applet-master/Social-Applet-master",
+					"query": "",
+					"scene": null
+				}
+			]
 		}
 	}
 }

@@ -1,0 +1,32 @@
+<!--pages/Letter/Letter.wxml-->
+ <form bindsubmit='onTap'> 
+  <view class='Title'>开始给未来的自己写一封信</view>
+  <view class='LetterOne'>
+    <view style='font-size:38rpx;margin-bottom:20px;color:#666'>标题</view>
+    <input style='font-size:42rpx;margin-bottom:10px;color:#333' placeholder='请在这里输入标题'
+    name='starTitle'></input>
+  </view>
+
+  <view class="divLine"></view>
+
+  <view class='LetterOne'>
+    <view style='font-size:38rpx;margin-bottom:5px;color:#666'>最美的期待</view>
+    <view style='font-size:28rpx;margin-bottom:20px;color:#73B69B'>在这里，可以把自己对未来的期待写下来哦~给未来的一封信，让其时时刻刻鞭策自己，督促自己，努力上进！</view>
+    <view>
+      <picker mode="date" bindchange='dateChange'>
+        <view style='font-size:42rpx;margin-bottom:10px;color:#333' name='starTime'>时间选择:{{date}}</view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="divLine"></view>
+
+
+    <view class='btn-Letter' >
+     <button form-type='submit' class='LetterSubmit' >
+     开始写信吧
+     <!-- <text class='text-Letter' ></text> -->
+     </button>
+      <!-- <text class='text-Letter' bindtap='onTap' form-type='button' >写信</text> -->
+    </view>
+ </form> 

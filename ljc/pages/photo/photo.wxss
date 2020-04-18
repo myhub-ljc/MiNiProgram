@@ -1,0 +1,273 @@
+/* pages/photo/photo.wxss */
+.resetitle {
+  text-align: center;
+}
+.reset-title{
+  text-align: center;
+  font-family: 微软雅黑;
+  margin-top: 4%;
+}
+.reset-img{
+  width: 100%;
+  margin-left: -1%;
+  margin-top: 5%;
+}
+.swiper-img {
+	width: 100%;
+	height: 400rpx;
+	margin-bottom: 20px;
+}
+
+.swiper-img image {
+	width: 100%;
+	height: 400rpx;
+}
+
+.Navigation-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	display: flex;
+	z-index: 500;
+	width: 100%;
+	height: 50px;
+	flex-direction: row;
+	text-align: center;
+	color: #a8a8a8;
+	font-size: 10rpx;
+	box-sizing: border-box;
+	border-bottom: 1rpx solid #dfdfdf;
+}
+
+.navbar-item {
+	flex: 1;
+	padding: 6rpx 2px;
+}
+
+.Navigation-text {
+	color: #666;
+	font-size: 36rpx;
+	margin-top: 30rpx;
+}
+
+.navbar-item-active {
+	transition: all 0.1s;
+	border-bottom: 10rpx solid #fcc;
+	color: #494949;
+}
+
+.demo0415 {
+	width: 100%;
+	height: 3123rpx;
+	/* border:1px solid green; */
+}
+.card-list-box {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+/* 首页推荐 */
+.card-box {
+	/* padding: 5px 3rpx 5px 20px; */ /* 上内边距是 5px,右内边距是 3rpx,下内边距是 5px,左内边距是 10px */
+	padding: 5px 0px 0px 5px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #fff;
+	box-sizing: border-box;
+	/* float: left; */
+	/* 添加阴影 */
+	border-style: solid;
+	box-shadow: 0px 0px 5px 5px #f3f3f3;
+	border-width: 0rpx;
+}
+
+.dynamic-tupian {
+	width: 340rpx;
+	display: flex;
+}
+
+.dynamic_img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	margin-left: 30rpx;
+}
+
+.dynamic_title {
+	font-size: 26rpx;
+	color: #666;
+	font-weight: 400;
+	margin-bottom: 2px;
+	margin-top: 5px;
+	margin-left: 50rpx;
+}
+
+.discuss {
+	flex-direction: row;
+  margin-top: 5%;
+}
+
+.discuss-image {
+	height: 20px;
+	width: 20px;
+	margin-right: 8rpx;
+	margin-left: 40rpx;
+}
+
+.discuss-text {
+	margin-right: 15px;
+	color: #999;
+}
+
+.user {
+	z-index: 1000;
+	float: right;
+	/* display: inline-block; */
+}
+
+.userhead {
+	border-radius: 50%;
+	width: 80rpx;
+	height: 80rpx;
+	position: relative;
+	left: 35rpx;
+	top: 360rpx;
+}
+/* .imageName{
+  display: inline-block;
+  position: relative;
+} */
+.username {
+	top: 270rpx;
+	align-items: center;
+	font-size: 32rpx;
+	color: #494949;
+	position: relative;
+	left: 130rpx;
+}
+
+.userdate {
+	top: 270rpx;
+	color: #999;
+	font-size: 28rpx;
+	position: relative;
+	/* right: 10rpx; */
+	left: 180rpx;
+	vertical-align: right;
+}
+
+/* 上传图片 */
+
+.add-image {
+	position: absolute;
+	z-index: 2;
+	left: 42%;
+}
+
+.add_icon {
+	width: 100rpx;
+	height: 80rpx;
+	margin-top: 20rpx;
+}
+
+.picture_item {
+	width: 240rpx;
+	height: 220rpx;
+	position: absolute;
+	z-index: 2;
+	left: 30%;
+	top: 10rpx;
+	bottom: 10rpx;
+}
+
+.picture_item image {
+	width: 320rpx;
+	height: 220rpx;
+	position: absolute;
+	z-index: -1;
+}
+
+.picture_item .delete {
+	width: 40rpx;
+	height: 40rpx;
+	position: relative;
+	z-index: 2;
+}
+
+.scroll-view_H {
+	display: flex;
+	white-space: nowrap;
+}
+
+.scroll-view_H view {
+	border: 5rpx solid white;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 输入照片描述部分 */
+
+.placeholder {
+	font-size: 30rpx;
+	/* left: 20rpx; */
+}
+
+.textContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100rpx;
+}
+
+.textContent textarea {
+	border: 10rpx solid #fcc;
+	flex-wrap: warp;
+	border-radius: 10px;
+	font-size: 36rpx;
+	width: 700rpx;
+	height: 420rpx;
+}
+
+/* 发布按钮 */
+
+.fabu {
+	background-color: green;
+	
+  margin-top: 0;
+	/* display: flex;
+  flex-direction:  */
+	width: 90%;
+	color: white;
+	bottom: 1000rpx;
+	left: 5%;
+}
+
+.topImages {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.topImages image {
+	width: 340rpx;
+	height: 300rpx;
+}
+.commit_submit_btn {
+  width: 300rpx;
+  height: 65rpx;
+  line-height: 65rpx;
+  text-align: center;
+  background-color: #3f9f94;
+  color: white;
+  margin: 2rpx auto 2rpx auto;
+}

@@ -1,0 +1,188 @@
+/* @import "/pages/photo/photo.wxss"; */
+
+.partone {
+  margin-bottom: 10rpx;
+  height: 520rpx;
+  width: 100%;
+}
+
+.content-image {
+  width: 100%;
+  height: 520rpx;
+  margin-top: 0rpx;
+  border-radius: 0rpx;
+  border-top-left-radius: 20rpx;
+  position: absolute;
+  z-index: -1;
+}
+
+.back {
+  position: relative;
+  z-index: 2;
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 77rpx;
+  margin-left: 50rpx;
+}
+
+.content-container {
+  margin-left: 50rpx;
+  margin-top: 30rpx;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  align-items: center;
+  font-size: 30rpx;
+  color: #999;
+  /* margin-right: 10rpx; */
+}
+
+.content {
+  /* width: 100%; *//* margin-right: 50rpx; *//* position: relative; */
+  padding-right: 50rpx;
+  font-size: 34rpx;
+  color: #666;
+}
+
+.content-text {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  margin-top: 50rpx;
+  /* margin-bottom: 20px; */
+  text-indent: 60rpx;
+}
+
+.content-zan {
+  background-color: #69c3aa;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  /* margin:0  auto； */
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.zan-image {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  align-items: center;
+  z-index: 2;
+}
+
+.textContent {
+  position: absolute;
+}
+
+.textContent .text {
+  position: relative;
+  left: 50rpx;
+}
+
+.placeholder {
+  font-size: 28rpx;
+}
+
+.comment {
+  position: absolute;
+  bottom: 0rpx;
+  /* display: inline-block; *//* display: flex;
+  flex-direction: row; */
+}
+
+/* .Commentinput {
+  position: relative;
+  border: 2rpx solid #69C3AA;
+  border-radius: 10rpx;
+  width: 620rpx;
+  height: 60rpx;
+  left: 10%;
+  bottom: 20rpx;
+}
+
+.inputplaceholder {
+  font-size: 30rpx;
+  left: 20rpx;
+  letter-spacing: 5rpx;
+} */
+
+/* .discuss-image {
+  height: 20px;
+  width: 20px;
+} */
+
+/**index.wxss**/
+
+.input-style {
+  /* width: 90%;
+  height: 50px;
+  border:1px solid #ccc;
+  margin:10px auto; */
+  position: relative;
+  border: 2rpx solid #69c3aa;
+  border-radius: 10rpx;
+  width: 620rpx;
+  height: 100rpx;
+  left: 10%;
+  bottom: 50px;
+}
+
+.btn {
+  width: 620rpx;
+  left: 10%;
+  bottom: 30px;
+  background-color: #69c3aa;
+  color: white;
+}
+
+.liuyanview {
+  width: 90%;
+  margin: 10px auto;
+  /* bottom: 10px; */
+}
+
+.result {
+  text-align: center;
+  font-size: 14px;
+  color: #f00;
+  top: 20px;
+}
+
+.headimg {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.headimg image {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.nickname_liuyantext {
+  width: calc(100% - 55px);
+  float: right;
+  margin-top: -45px;
+}
+
+.nickname_liuyantext .nickname {
+  font-size: 15px;
+  color: #999;
+}
+
+.nickname_liuyantext .nickname .time {
+  font-size: 11px;
+  color: #999;
+  float: right;
+}
+
+.nickname_liuyantext .text {
+  font-size: 16px;
+  color: #666;
+}
